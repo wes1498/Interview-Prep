@@ -2,7 +2,12 @@
 #include <string>
 #include <unordered_map>
 
+
 using namespace std;
+
+// Chapter 1
+// Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you
+// cannot use additional data structures?
 
 bool unique(string s) {
   unordered_map<char, int> mymap;
