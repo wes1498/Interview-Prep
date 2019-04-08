@@ -51,9 +51,9 @@ int main() {
     string edited = "pale";
 
     if (oneAway(edit, edited) == false) {
-        cout << "one away is false ";
+        cout << "one away is false " << '\n';
     } else {
-        cout << "one away is true ";
+        cout << "one away is true " << '\n';
     }
 
     return 0;
