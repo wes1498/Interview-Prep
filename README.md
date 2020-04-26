@@ -1,5 +1,4 @@
-# Hamiltonion-Path
-Print all Hamiltonion Paths
+# Interview Prep
 
 To compile: 
 
