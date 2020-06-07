@@ -22,12 +22,12 @@ int longestSubsequence(vector<int>& arr, int difference) {
 }
 
 int main() {
-    
+
     vector<int>arr;
     arr.push_back(1);
     arr.push_back(2);
     arr.push_back(3);
-    arr.push_back(4);
+    arr.push_back(4); 
 
     assert(longestSubsequence(arr, 1));
 
