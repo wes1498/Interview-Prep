@@ -8,6 +8,10 @@ static auto magic = []() {std::ios_base::sync_with_stdio(false); std::cin.tie(nu
 
 using namespace std;
 
+// Given a matrix consists of 0 and 1, find the distance of the nearest 0 for each cell.
+
+// The distance between two adjacent cells is 1.
+
 vector<vector<int>> updateMatrix(vector<vector<int>>& matrix) {
     if(matrix.size() == 0) {return matrix;}
     
