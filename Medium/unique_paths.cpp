@@ -8,6 +8,12 @@ static auto magic = []() {std::ios_base::sync_with_stdio(false); std::cin.tie(nu
 
 using namespace std;
 
+// A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
+
+// The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
+
+// How many possible unique paths are there?
+
 int uniquePaths(int m, int n) {
     vector<vector<int>>dp(n,vector<int>(m,0));
     for(auto i=0;i<m;i++){

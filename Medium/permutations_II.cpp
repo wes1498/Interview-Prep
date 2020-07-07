@@ -7,6 +7,18 @@ static auto magic = []() {std::ios_base::sync_with_stdio(false); std::cin.tie(nu
 
 using namespace std;
 
+// Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+// Example:
+
+// Input: [1,1,2]
+// Output:
+// [
+//   [1,1,2],
+//   [1,2,1],
+//   [2,1,1]
+// ]
+
 class Solution {
 private:
     vector<vector<int>> result;

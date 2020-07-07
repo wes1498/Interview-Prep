@@ -4,6 +4,15 @@
 
 using namespace std;
 
+// Given an integer array arr and an integer difference, return the length of the longest subsequence in arr which is an arithmetic sequence such that the difference between adjacent elements in the subsequence equals difference.
+
+ 
+
+// Example 1:
+
+// Input: arr = [1,2,3,4], difference = 1
+// Output: 4
+// Explanation: The longest arithmetic subsequence is [1,2,3,4].
 int longestSubsequence(vector<int>& arr, int difference) {
     int n=arr.size();
     if(n==1){return 1;}

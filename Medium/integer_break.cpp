@@ -3,6 +3,14 @@
 
 using namespace std;
 
+// Given a positive integer n, break it into the sum of at least two positive integers and maximize the product of those integers. Return the maximum product you can get.
+
+// Example 1:
+
+// Input: 2
+// Output: 1
+// Explanation: 2 = 1 + 1, 1 × 1 = 1.
+
 int integerBreak(int n)
 {
     vector<int> dp(n + 1, 0);

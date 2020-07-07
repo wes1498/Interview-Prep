@@ -6,6 +6,16 @@ static auto magic = []() {std::ios_base::sync_with_stdio(false); std::cin.tie(nu
 
 using namespace std;
 
+// Given a string s, find the longest palindromic subsequence's length in s. You may assume that the maximum length of s is 1000.
+
+// Example 1:
+// Input:
+
+// "bbbab"
+// Output:
+// 4
+// One possible longest palindromic subsequence is "bbbb".
+
 int longestPalindromeSubseq(string s) {
     if(s.size()==0){return 0;}
     int n=s.size();
