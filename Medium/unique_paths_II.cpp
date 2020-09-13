@@ -3,7 +3,6 @@
 #include <numeric>
 #include <functional>
 
-//Fast IO
 static auto magic = []() {std::ios_base::sync_with_stdio(false); std::cin.tie(nullptr); return false;}();
 
 using namespace std;
