@@ -24,6 +24,13 @@ private:
     vector<vector<int>> result;
     vector<int> temp;
 public:
+    // Only difference is that now you have to track whether the repeated number is used or not
+    // keep a used(n, flase) vector that will track whether you have used the number in your 
+    // next permutation or not.
+    // continue to next number if:
+    //    1. You've used nums[i] already
+    //
+    //    2. nums[i] == nums[i-1] AND you haven't checked out nums[i-1] yet
     void backtrack(vector<int>& nums, vector<bool>& used) {
         if(temp.size() == nums.size()){
             result.push_back(temp);
