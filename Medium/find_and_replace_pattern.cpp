@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <stack>
+#include <unordered_map>
 
 //Fast IO
 static auto magic = []() {std::ios_base::sync_with_stdio(false); std::cin.tie(nullptr); return false; }();
@@ -42,6 +42,7 @@ vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
 
 int main() {
     vector<string> words = {"abc","deq","mee","aqq","dkd","ccc"};
-    assert(findAndReplacePattern(words,"abb") == {"mee","aqq"});
+    vector<string> result = {"mee","aqq"};
+    assert(findAndReplacePattern(words,"abb") == result);
     return 0;
 }
